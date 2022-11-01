@@ -5,7 +5,8 @@ const app = Vue.createApp({
         image: './assets/images/socks_blue.jpg',
         url: "'https://www.vuemastery.com/'",
         inventory: 10,
-        onSale: true
+        onSale: true,
+        sizes: ['XS','S', 'M', 'L', 'XL']
     }
 }
 })
